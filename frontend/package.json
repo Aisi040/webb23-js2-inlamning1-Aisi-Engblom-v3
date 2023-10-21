@@ -1,0 +1,17 @@
+{
+  "name": "sten-sax-pase",
+  "version": "1.0.0",
+  "description": "Ett enkelt sten, sax, påse-spel",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "npx del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "author": "Aiserich Engblom",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "parcel": "^2.9.3"
+  }
+}

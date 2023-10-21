@@ -1,0 +1,8 @@
+7
+99C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\css\style.css133414156603944373 0
+89C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\css133414156603944373 1
+96C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\index.html133414156603978410 0
+93C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\main.js133414156603978410 0
+117C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\node_modules\.package-lock.json133414156603978410 0
+98C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\node_modules133414156603978410 1
+103C:\Programmering\github\KLARARA\-webb23-js2-inlamning1-Aisi-Engblom-Klar\frontend\src\package-lock.json133414161632032416 0

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Sammanfogad Content-Security-Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://localhost:3000; script-src 'self' 'unsafe-eval'; img-src 'self' http://localhost:3000; style-src 'self'; child-src 'none';">
+    
+    <title>Sten, Sax, Påse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <h1>Sten, Sax, Påse</h1>
+
+    <div id="playerInfo">
+        <label for="playerName">Ange ditt namn:</label>
+        <input type="text" id="playerName">
+        <button id="startGameBtn">Starta Spelet</button>
+        <p id="playerDisplay">Välkommen, <span id="playerNameDisplay"></span>!</p>
+    </div>
+    
+
+    <div id="gameElements">
+        <div>
+            <button data-choice="Sten">Sten</button>
+            <button data-choice="Sax">Sax</button>
+            <button data-choice="Påse">Påse</button>
+        </div>
+
+        <div>
+            <p>Spelarens val: <span id="playerChoice">-</span></p>
+            <p>Datorns val: <span id="computerChoice">-</span></p>
+        </div>
+
+        <div>
+            <p>Spelarens poäng: <span id="playerScore">0</span></p>
+            <p>Vinnare denna omgång: <span id="roundWinner">-</span></p>
+        </div>
+    </div>
+
+    <h2>Highscore:</h2>
+    <ul id="highscoreList">
+        <!-- Highscore-lista här -->
+    </ul>
+
+    <script src="main.js"></script>
+
+
+</body>
+
+
+</html>
